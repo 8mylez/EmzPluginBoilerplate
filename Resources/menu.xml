@@ -4,10 +4,10 @@
 
     <entries>
         <entry>
-            <name>SwagAboCommerce</name>
-            <label lang="de">AboCommerce</label>
-            <label lang="en">Subscriptions</label>
-            <controller>AboCommerce</controller>
+            <name>EmzPluginBoilerplate</name>
+            <label lang="de">[PLUGINNAME]</label>
+            <label lang="en">[PLUGINNAME]</label>
+            <controller>[PLUGINNAME]</controller>
             <action>index</action>
             <class>sprite-abo-commerce</class>
             <parent>Marketing</parent>
