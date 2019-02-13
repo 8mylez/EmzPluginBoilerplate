@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.5/engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="boolean" scope="shop">
+            <name>configurationName</name>
+            <label lang="de">Label DE</label>
+            <label lang="en">Label EN</label>
+            <value>false</value>
+            <description lang="de">Beschreibung</description>
+            <description lang="en">Description</description>
+        </element>
+    </elements>
+</config>
