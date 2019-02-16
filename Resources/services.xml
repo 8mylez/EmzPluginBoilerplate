@@ -3,8 +3,8 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <!-- Register TemplateRegistration subscriber -->
-        <service id="swag_plugin_system.subscriber.template_registration" class="SwagPluginSystem\Subscriber\TemplateRegistration">
-            <argument>%swag_plugin_system.plugin_dir%</argument>
+        <service id="emz_plugin_boilerplate.subscriber.template_registration" class="EmzPluginBoilerplate\Subscriber\TemplateRegistration">
+            <argument>%emz_plugin_boilerplate.plugin_dir%</argument>
             <argument type="service" id="template"/>
             <tag name="shopware.event_subscriber"/>
         </service>
