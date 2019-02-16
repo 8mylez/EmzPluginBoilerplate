@@ -1,6 +1,6 @@
 <?php
 
-namespace SwagPluginSystem\Subscriber;
+namespace EmzPluginBoilerplate\Subscriber;
 
 use Enlight\Event\SubscriberInterface;
 
