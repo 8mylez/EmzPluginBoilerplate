@@ -10,6 +10,17 @@
     <author>8mylez</author>
     <compatibility minVersion="5.2.0"/>
 
+    <description lang="de">
+        <![CDATA[
+            Beschreibung fuer das Plugin
+        ]]>
+    </description>
+    <description lang="en">
+        <![CDATA[
+            Description for the plugin
+        ]]>
+    </description>
+
     <changelog version="1.0.0">
         <changes lang="de">Veröffentlichung</changes>
         <changes lang="en">Release</changes>
