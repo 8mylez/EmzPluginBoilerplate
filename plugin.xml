@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>[PLUGINNAME]</label>
     <label lang="de">[PLUGINNAME]</label>
-    <label lang="en">[PLUGINNAME]</label>
-
+    
     <version>1.0.0</version>
-    <copyright>(c) by Goltfisch GmbH</copyright>
+    <copyright>(c) by 8mylez GmbH</copyright>
     <link>https://8mylez.com</link>
-    <author>8mylez</author>
+    <author>8mylez GmbH</author>
+    <license>proprietary</license>
     <compatibility minVersion="5.2.0"/>
+    
+    <!-- <requiredPlugins>
+        <requiredPlugin pluginName="Cron" minVersion="1.0.0" />
+    </requiredPlugin>  -->
 
+    <description>
+        <![CDATA[
+            Description for the plugin
+        ]]>
+    </description>
     <description lang="de">
         <![CDATA[
             Beschreibung fuer das Plugin
         ]]>
     </description>
-    <description lang="en">
-        <![CDATA[
-            Description for the plugin
-        ]]>
-    </description>
+
+    <!-- <changelog version="1.1.0">
+        <changes>
+                <![CDATA[
+                    Version 1.1.0
+                ]]>
+        </changes>
+        <changes lang="de">
+                <![CDATA[
+                    Version 1.1.0 
+                ]]>
+        </changes>
+    </changelog> -->
 
     <changelog version="1.0.0">
-        <changes lang="de">Veröffentlichung</changes>
-        <changes lang="en">Release</changes>
+        <changes>
+                <![CDATA[
+                    First release Shopware Community Store
+                ]]>
+        </changes>
+        <changes lang="de">
+                <![CDATA[
+                    Erstveröffentlichung Shopware Community Store
+                ]]>
+        </changes>
     </changelog>
 </plugin>
