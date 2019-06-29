@@ -32,12 +32,14 @@ class TemplateRegistration implements SubscriberInterface
     public static function getSubscribedEvents()
     {
         return [
-            'Enlight_Controller_Action_PreDispatch' => 'onPreDispatch'
+            'Theme_Inheritance_Template_Directories_Collected' => 'onTemplateDirectoriesCollect'
         ];
     }
 
-    public function onPreDispatch()
+    public function onTemplateDirectoriesCollect()
     {
-        $this->templateManager->addTemplateDir($this->pluginDirectory . '/Resources/views');
+        $dirs = $args->getReturn();
+        $dir[] = $this->pluginDirectory . '/Resources/views';
+        $args->setReturn($dirs);
     }
 }
