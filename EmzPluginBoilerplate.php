@@ -49,9 +49,9 @@ class EmzPluginBoilerplate extends Plugin
     public function uninstall(UninstallContext $context)
     {
         if (!$context->keepUserData()) {
-            $setup->uninstall();
+            //uninstall code goes here
         }
-
+        
         $context->scheduleClearCache(UninstallContext::CACHE_LIST_ALL);
     }
 }
