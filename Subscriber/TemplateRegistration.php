@@ -39,7 +39,7 @@ class TemplateRegistration implements SubscriberInterface
     public function onTemplateDirectoriesCollect(\Enlight_Event_EventArgs $args)
     {
         $dirs = $args->getReturn();
-        $dir[] = $this->pluginDirectory . '/Resources/views';
+        $dirs[] = $this->pluginDirectory . '/Resources/views';
         $args->setReturn($dirs);
     }
 }
