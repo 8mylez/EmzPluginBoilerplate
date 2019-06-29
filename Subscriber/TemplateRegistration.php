@@ -36,7 +36,7 @@ class TemplateRegistration implements SubscriberInterface
         ];
     }
 
-    public function onTemplateDirectoriesCollect()
+    public function onTemplateDirectoriesCollect(\Enlight_Event_EventArgs $args)
     {
         $dirs = $args->getReturn();
         $dir[] = $this->pluginDirectory . '/Resources/views';
