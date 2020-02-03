@@ -13,7 +13,7 @@
     
     <!-- <requiredPlugins>
         <requiredPlugin pluginName="Cron" minVersion="1.0.0" />
-    </requiredPlugin>  -->
+    </requiredPlugins>  -->
 
     <description>
         <![CDATA[
